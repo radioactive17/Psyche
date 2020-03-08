@@ -1,0 +1,24 @@
+{% extends 'users/base.html' %}
+{% load static %}
+
+  {% block content %}
+    <!-- Start: Login Form Clean -->
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-danger">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+    <div class="login-clean" style="background-color: rgb(255,255,255);background-size: auto;height: 658px;">
+        <form class="bg-info border rounded d-block pulse animated" id="login" method="post" style="background-color: #ffffff;background-image: url({% static 'users/assets/img/bg.jpg' %}">
+          {% csrf_token %}
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration" style="color: #5383d3;"><i class="fa fa-user-circle-o" style="color: rgba(0,0,0,0.12);"></i></div>
+            <div class="form-group"><input class="form-control" type="text" name="username" placeholder="Username"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background-color: #5383d3;">Log In</button></div><a class="forgot" href="#">Forgot your email or password?</a>
+            <div class="d-lg-flex justify-content-lg-start align-items-lg-end"
+                style="height: 28px;width: 236px;margin-right: 0px;margin-left: 38px;"><label class="text-center" style="font-size: 12px;height: 10px;">New User?? &nbsp;</label><a class="" href="{% url 'Register' %}" type="submit" href=# style="width: 156px;font-size:12px;">Sign Up Now!!</a></div>
+        </form>
+    </div>
+    <!-- End: Login Form Clean -->
+  {% endblock %}

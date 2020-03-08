@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block messages %}
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {% for message in messages %}
+              {{ message }}
+            {% endfor %}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      {% endif %}
+    {% endwith %}
+{% endblock %}
+
+{% block content %}
+<style>
+    .form button:hover,.form button:active,.form button:focus {
+        background: #43A047;
+    }
+</style>
+<div class="row" style="padding-top:10px;" >
+    <div class="col"><hr></div>
+    <div class="col-auto"><p class="h3" align="center">Start Chatting</p></div>
+    <div class="col"><hr></div>
+</div>
+<div class="container">
+    <div id="messages" class="overflow-auto msgs" style="overflow-y: scroll; height:500px;">
+    </div>
+    <form id="msgForm" action="" method="POST" style="bottom:0; margin: 0% 0% 0% 0%;">
+        <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Message" aria-label="Message" id="msg">
+              <div class="input-group-append">
+                <button class="btn btn-success" type="submit" id="sendBtn">Send</button>
+              </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
