@@ -1,0 +1,42 @@
+.headerr
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headerr h1{
+    color: #fff;
+    font-size: 46px;
+}
+
+.headerr p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.formm {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.inputtt {
+    width: 100%;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 5px solid #ebf5ff;
+    margin-top: 10%;
+}
+
+#msg
+{
+    margin-top: 60px;
+}
+
+::-webkit-input-placeholder{
+    color: black;
+    font-size: 12px;
+    letter-spacing: 2px;
+}

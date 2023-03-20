@@ -1,0 +1,27 @@
+.text-white{
+    background-color: green !important;
+    color: white !important;
+}
+
+.text-warning{
+    color: black !important;
+}
+
+
+label.radio input{
+    visibility: hidden
+}
+
+
+.signin_buttonn {
+	border-radius: 20px;
+	border: 1px solid #03a9f4;
+	background-color: #03a9f4;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}

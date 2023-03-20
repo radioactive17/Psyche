@@ -1,0 +1,136 @@
+.AspmtHomePage_body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ebf5fc;
+    background-attachment: fixed;
+}
+
+.AspmtHomePage_container
+{
+    position: relative;
+    width: 1500px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card
+{
+    position: relative;
+    width: 300px;
+    height: 450px;
+    background: #fff;
+    margin: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.AspmtHomePage_container:hover .AspmtHomePage_card
+{
+    /* filter: blur(20px); */
+    transform: scale(0.9);
+    /* opacity: 0.5; */
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:hover
+{
+    /* filter: blur(0px); */
+    transform: scale(1.1);
+    /* opacity: 1; */
+}
+
+.AspmtHomePage_container .AspmtHomePage_card .AspmtHomePage_circle
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card .AspmtHomePage_circle h2
+{
+    color: #fff;
+    font-size: 4.5em;
+    padding: 30px 0;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card .AspmtHomePage_content
+{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card .AspmtHomePage_content p
+{
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card .AspmtHomePage_content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(1) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(1) .AspmtHomePage_content a
+{
+    background: #ffaf00;
+
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(2) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(2) .AspmtHomePage_content a
+{
+    background: #da2268;
+
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(3) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(3) .AspmtHomePage_content a
+{
+    background: #bb02ff;
+
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(4) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(4) .AspmtHomePage_content a
+{
+    background: #ffaf00
+
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(5) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(5) .AspmtHomePage_content a
+{
+    background: #da2268;
+
+}
+
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(6) .AspmtHomePage_circle,
+.AspmtHomePage_container .AspmtHomePage_card:nth-child(6) .AspmtHomePage_content a
+{
+    background: #ffaf00;
+
+}
+
+
+
+

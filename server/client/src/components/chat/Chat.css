@@ -1,0 +1,76 @@
+.Watson_container{
+  text-align: center;
+  background: #ebf5fc;
+  height: 93.5vh;
+}
+
+#Watson_chatBox{  
+  height: 40px;
+  width: 450px;
+  outline: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  /* margin-top: 2px; */
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  border-top: none;
+  background: white;
+}
+.Watson_bot{
+  /* background-color: rgb(152, 85, 212); */
+  background: #F0F0F0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  text-align: left;
+  margin-top: 10px;
+  padding: 8px;
+  padding-left: 20px;
+  max-width: 300px;
+  margin-left: 5px;
+}
+.Watson_user{
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px; 
+  text-align: right;
+  margin-top: 10px;
+  padding: 8px;
+  padding-right: 20px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.Watson_chat{
+  display: inline-block;
+  max-width: 450px;
+  margin: auto;
+  padding-top: 50px;
+}
+.Watson_historyContainer{
+  height:600px;
+  overflow: scroll;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: white;
+  width: 450px;
+  -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.Watson_historyContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.Watson_chat h3{
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-size: 2.5em;
+  margin-bottom: 50px;
+}
+
+
+#Watson_chatBox::-webkit-input-placeholder {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #A9A9A9;
+}

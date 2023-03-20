@@ -1,0 +1,33 @@
+.lessonBody {
+    margin: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 20px;
+    text-align: justify;
+}
+
+.lessonHeading {
+    margin: 20px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding: 20px;
+    text-align: center;
+}
+
+.lessonBody h3 {
+    font-size: 1em;
+    font-weight: normal !important;
+}
+
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

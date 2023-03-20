@@ -1,19 +1,90 @@
-# Psyche - CodeShastra 6.0
-## Team Bro-Code
-Psyche is a AI-based system which would help an individual by exploring various mental disorder parameters and overcoming it by CBT technique.
+# Psyche - Mental Health Application
+
+Psyche is an intelligent system which helps all school or college going adolescents to deal with Exam Stress by exploring various mental disorder parameters and overcoming it by CBT techniques. It also creates an awareness by educating them about Cognitive Behavioural Therapy.
+
+## Technology Stack
+  - NodeJS
+  - ExpressJS
+  - ReactJS
+  - Redux
+  - MongoDB Atlas
+  - IBM Watson
+
+## Features 
+
+### Student Module
+  - ASPMT Tests
+  - Cognitive Behavioral Therapy Lessons
+  - Cognitive Behavioral Therapy Exercises
+  - Automatic Thought Challenges
+  - Deep Breathing Therapy
+  - Virtual Psychiatrist Session
+  - Psychiatrist Session
+     
+### Psychiatrist Module
+  - Analyse ASPMT Tests
+  - Analyse Automatic Thought Challenges
+  - Schedule Student's Session
+        
+### Admin Module
+  - Add a Psychiatrist
+  - Assign a Psyhciatrist
+  - Monitor Session
+    
+   
+## Feature's UI
+
+### Student Module
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/1.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/2.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/3.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/4.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/5.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/6.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/7.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/8.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/9.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/10.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/11.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/12.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/13.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/14.png)
 
 
-Our Main Aim was to design a system that would help an individual to overcome his mental disorder by exploring parameters like: 
-1.Tracking Anxiety Levels
-2.Tracking Stress Levels
-3.Tracking Mental Tiredness
-4.Tracking Physical Tiredness
 
-An individual can have sessions with our chatbot and go through the different CBT techniques that our chatbot will offer the individual based on his/her text inputs.
+<hr >
 
-Also, an individual can take part in our chat-room where different individuals/users will be able to chat among themselves. We have made sure that the chats in the chat-room are validated. All the chats of the chat-room/server are stored and can be analyzed by the different individuals on their dashboard. 
 
-Also, our chatbot has an additional feature where the individual can opt to play a game "Word Association" which can help in reducing the different levels of stress, anxiety, and tiredness.
+### Psychiatrist Module
 
-Also, we have an interesting UI for our system which will eventually look attractive and the individual will find it fun to go through the different functionalities of our system.  Each individual will have their own dashboard where they can access all the different functionalities and even go through a psychological test where the individual will be able to analyze his/her mental disorder.
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/15.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/16.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/17.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/18.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/19.png)
+
+
+<hr >
+
+
+### Admin Module
+
+
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/20.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/21.png)
+![Responsice Mockup](https://github.com/sameer-patel-dev/Psyche-Mental-Health-Application/blob/master/images/22.png)
+
+<hr >
+
+
+## Contributors
+ - Sameer Patel
+ - Mittal Jain
+ - Sarvesh Pai
+ - Jignesh Nagda
+
+
+## Acknowledgement
+We would like to thank Prof. Manjitsing Valvi, Prof. Ashwini Dalvi and Dr. Shrirang Joshi for their support and guidance throughout the development of this Project.
+
 

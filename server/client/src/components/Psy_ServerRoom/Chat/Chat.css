@@ -1,0 +1,32 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #ebf5fc; */
+  }
+  
+  .chats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    height: 60%;
+    width: 35%;
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .chats {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1200px) {
+    .chats {
+      width: 60%;
+    }
+  }
+  
+  
